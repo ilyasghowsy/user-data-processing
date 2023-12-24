@@ -2,11 +2,11 @@
 
 Getting the random user data and storing into redis. Getting the redis data and processing them to store into DB using cron.
 
-## Features
+### Features
 - Using redis to store data to optimize the performance instead of getting from DB directly.
 - Using cron to check every 3.5 hours
 
-# Prerequisites
+### Prerequisites
 - Express
 - Mongoose
 - MongoDB
@@ -14,26 +14,26 @@ Getting the random user data and storing into redis. Getting the redis data and 
 - Cron
 - Jest
 
-# Installation
+### Installation
 - git clone https://github.com/ilyasghowsy/user-data-processing.git
 - npm install
 
-# Server Configuration
+### Server Configuration
 PORT=3000
 
-# MongoDB Configuration
+### MongoDB Configuration
 MONGODB_URI=mongodb://localhost:27017/azTestDB
 
-# Redis Configuration
+### Redis Configuration
 REDIS_URL=redis://localhost:6379
 
-# Usage
+### Usage
 - npm install
 
-# Testing
+### Testing
 - npx jest
 
-# Project Details
+### Project Details
 - index.ts
     - Server connection
     - MongoDB connection
